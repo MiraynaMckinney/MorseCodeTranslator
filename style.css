@@ -1,0 +1,44 @@
+ html{
+    font-size: 62.25%
+ }
+body{
+    background-color: rgba(0, 0, 0, .5);
+}
+ h1{
+    font-size:3rem;
+ }
+ h2{
+    font-size:2rem;
+ }
+ section{
+    align-items: center;
+ }
+#title{
+    align-items: none;
+    display: flex;
+    justify-content: center;
+}
+ #translationsec{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+#translationsec h2{
+    padding: 0 50px;
+}
+
+ .translate{
+    border: 1px bold black;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    padding: 0 50px;
+ }
+ 
+ @media (min-width: 500) {
+    #translation{
+        display: block;
+
+    }
+ }
